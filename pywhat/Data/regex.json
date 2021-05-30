@@ -56,7 +56,7 @@
     },
     {
        "Name": "Capture The Flag (CTF) Flag",
-       "Regex": "(?i)flag{.*}|ctf{.*}|ctfa{.*}",
+       "Regex": "(?i)flag{.*}|flag\\(.*\\){.*}|ctf{.*}|ctfa{.*}",
        "plural_name": false,
        "Description": null,
        "Rarity": 1,
